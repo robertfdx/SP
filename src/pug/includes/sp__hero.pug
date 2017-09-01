@@ -1,0 +1,20 @@
+.sp__hero
+  img.hero__image(src='img/hero.jpg', alt='Hero image')
+  .hero__content
+    h1.hero__title Stock Photos
+    .hero__subtitle
+      .hero__logo
+        img(src='img/logo.png').hero__logo__img
+      .hero__description
+        | This is a collection of stock photos from a wide range of authors.
+        | You can download whatever you want.
+      button.trigger
+        svg(width='100%', height='100%', viewbox='0 0 60 60', preserveaspectratio='none')
+          g.icon.icon--grid
+            rect(x='32.5', y='5.5', width='22', height='22')
+            rect(x='4.5', y='5.5', width='22', height='22')
+            rect(x='32.5', y='33.5', width='22', height='22')
+            rect(x='4.5', y='33.5', width='22', height='22')
+          g.icon.icon--cross
+            line(x1='4.5', y1='55.5', x2='54.953', y2='5.046')
+            line(x1='54.953', y1='55.5', x2='4.5', y2='5.047')
